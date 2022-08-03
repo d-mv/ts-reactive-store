@@ -1,0 +1,33 @@
+{
+  "name": "ts-reactive-store",
+  "version": "1.0.0",
+  "description": "Reactive store",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint --ext .ts,.tsx src"
+  },
+  "keywords": ["typescript", "rxjs"],
+  "author": "Dmitry Melnikov <d.dash.mv@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "@getify/eslint-plugin-proper-arrows": "^11.0.3",
+    "@types/node": "^18.6.3",
+    "@typescript-eslint/eslint-plugin": "^5.32.0",
+    "@typescript-eslint/parser": "^5.32.0",
+    "eslint": "^8.21.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-async-await": "^0.0.0",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-json": "^3.1.0",
+    "eslint-plugin-markdown": "^3.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-ramda": "^2.5.1",
+    "prettier": "^2.7.1",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "rxjs": "^7.5.6"
+  }
+}
